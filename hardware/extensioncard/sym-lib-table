@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name Wang2200)(type Legacy)(uri C:/Users/denze498/Documents/wang2200/Wang2200.lib)(options "")(descr ""))
+  (lib (name Wang2200)(type Legacy)(uri ${KIPRJMOD/../Wang2200.lib)(options "")(descr ""))
+  (lib (name extensioncard-rescue)(type Legacy)(uri ${KIPRJMOD}/extensioncard-rescue.lib)(options "")(descr "")(disabled))
 )

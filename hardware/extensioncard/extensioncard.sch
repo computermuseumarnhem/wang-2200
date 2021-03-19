@@ -25,10 +25,10 @@ F 3 "~" H 3200 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Wang2200:Conn_02x15_Wang2200 J3
+L Wang2200:Conn_02x15_Wang2200 J2
 U 1 1 606B2141
 P 5700 3200
-F 0 "J3" H 5750 4117 50  0000 C CNN
+F 0 "J2" H 5750 4117 50  0000 C CNN
 F 1 "Female Card Edge" H 5750 4026 50  0000 C CNN
 F 2 "Wang2200:Wang2200_02x15_Connector" H 5700 3200 50  0001 C CNN
 F 3 "~" H 5700 3200 50  0001 C CNN
@@ -276,12 +276,12 @@ PINR
 Text Label 6500 3900 2    50   ~ 0
 PINS
 $Comp
-L Connector_Generic:Conn_02x15_Odd_Even J2
+L Connector_Generic:Conn_02x15_Odd_Even J3
 U 1 1 60717A1C
 P 3200 5700
-F 0 "J2" H 3250 4775 50  0000 C CNN
+F 0 "J3" H 3250 4775 50  0000 C CNN
 F 1 "Header" H 3250 4866 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Horizontal" H 3200 5700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical" H 3200 5700 50  0001 C CNN
 F 3 "~" H 3200 5700 50  0001 C CNN
 	1    3200 5700
 	1    0    0    1   
