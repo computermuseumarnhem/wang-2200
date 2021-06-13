@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -228,7 +228,7 @@ Text Label 2500 3400 2    50   ~ 0
 Text Label 2500 3500 2    50   ~ 0
 -15VR
 Text Label 2500 3600 2    50   ~ 0
-B1?15R
+B1-15R
 Text Label 2500 3700 2    50   ~ 0
 B2-15R
 Text Label 2500 3800 2    50   ~ 0
@@ -258,7 +258,7 @@ Text Label 1000 3400 0    50   ~ 0
 Text Label 1000 3500 0    50   ~ 0
 -15VR
 Text Label 1000 3600 0    50   ~ 0
-B1?15R
+B1-15R
 Text Label 1000 3700 0    50   ~ 0
 B2-15R
 Text Label 1000 3800 0    50   ~ 0
@@ -278,29 +278,27 @@ S 4000 5000 1000 500
 U 6055B9FC
 F0 "WTR" 50
 F1 "WTR.sch" 50
-F2 "+5VR" I L 4000 5100 50 
-F3 "0V" I L 4000 5200 50 
+F2 "+5VRL" I L 4000 5100 50 
+F3 "0V" I L 4000 5400 50 
 F4 "~WTR" O R 5000 5100 50 
-F5 "-14VAC" I L 4000 5400 50 
-F6 "+14VAC" I L 4000 5300 50 
+F5 "-14VAC" I L 4000 5300 50 
+F6 "+14VAC" I L 4000 5200 50 
 $EndSheet
 Wire Wire Line
 	3500 5100 4000 5100
+Wire Wire Line
+	3500 5400 4000 5400
 Wire Wire Line
 	3500 5200 4000 5200
 Wire Wire Line
 	3500 5300 4000 5300
 Wire Wire Line
-	3500 5400 4000 5400
-Wire Wire Line
 	5000 5100 5500 5100
 Text Label 3500 5100 0    50   ~ 0
 +5VRL
 Text Label 3500 5200 0    50   ~ 0
-0V
-Text Label 3500 5300 0    50   ~ 0
 +14VAC
-Text Label 3500 5400 0    50   ~ 0
+Text Label 3500 5300 0    50   ~ 0
 -14VAC
 Text Label 5500 5100 2    50   ~ 0
 ~WTR
@@ -400,11 +398,77 @@ Text Label 2000 5500 2    50   ~ 0
 +14VAC
 Text Label 2000 5600 2    50   ~ 0
 -14VAC
-NoConn ~ 2000 5900
-NoConn ~ 2000 6000
 NoConn ~ 2000 6100
 Text Label 2000 5700 2    50   ~ 0
 +5VRL
 Text Label 2000 5800 2    50   ~ 0
 0V
+$Sheet
+S 4000 4000 1000 500 
+U 60554B2F
+F0 "-12VR" 50
+F1 "minus12VR.sch" 50
+F2 "-17V" I L 4000 4200 50 
+F3 "0V" I L 4000 4400 50 
+F4 "B1-12R" O R 5000 4300 50 
+F5 "B2-12R" O R 5000 4400 50 
+F6 "-12VR" O R 5000 4100 50 
+$EndSheet
+Text Label 3500 5400 0    50   ~ 0
+0V
+Wire Wire Line
+	3500 4200 4000 4200
+Wire Wire Line
+	3500 4400 4000 4400
+Text Label 3500 4200 0    50   ~ 0
+-17V
+Text Label 3500 4400 0    50   ~ 0
+0V
+Wire Wire Line
+	5500 4100 5000 4100
+Wire Wire Line
+	5500 4300 5000 4300
+Wire Wire Line
+	5500 4400 5000 4400
+Text Label 5500 4100 2    50   ~ 0
+-12VR
+Text Label 5500 4300 2    50   ~ 0
+B1-12R
+Text Label 5500 4400 2    50   ~ 0
+B2-12R
+Wire Wire Line
+	3500 3200 4000 3200
+Wire Wire Line
+	3500 3400 4000 3400
+Text Label 3500 3200 0    50   ~ 0
+-20V
+Text Label 3500 3400 0    50   ~ 0
+0V
+Wire Wire Line
+	5500 3100 5000 3100
+Wire Wire Line
+	5500 3300 5000 3300
+Wire Wire Line
+	5500 3400 5000 3400
+Text Label 5500 3100 2    50   ~ 0
+-15VR
+Text Label 5500 3300 2    50   ~ 0
+B1-15R
+Text Label 5500 3400 2    50   ~ 0
+B2-15R
+$Sheet
+S 4000 3000 1000 500 
+U 6059F5EE
+F0 "-15VR" 50
+F1 "minus15VR.sch" 50
+F2 "-20V" I L 4000 3200 50 
+F3 "0V" I L 4000 3400 50 
+F4 "B1-15R" O R 5000 3300 50 
+F5 "B2-15R" O R 5000 3400 50 
+F6 "-15VR" O R 5000 3100 50 
+$EndSheet
+Text Label 2000 5900 2    50   ~ 0
+-17V
+Text Label 2000 6000 2    50   ~ 0
+-20V
 $EndSCHEMATC
