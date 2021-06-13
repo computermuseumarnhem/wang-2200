@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM723_TO100
+D Linear Regulator (adjustable), TO-100
+K POWER REGUL
+F http://www.ti.com/lit/ds/symlink/lm723.pdf
+$ENDCMP
+#
+#End Doc Library

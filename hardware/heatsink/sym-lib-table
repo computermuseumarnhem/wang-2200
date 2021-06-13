@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Wang2200)(type Legacy)(uri //ballard/denz/Projects/wang_2200/hardware/L567/Wang2200.lib)(options "")(descr ""))
+)
