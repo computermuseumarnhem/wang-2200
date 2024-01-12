@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name Wang2200)(type Legacy)(uri ${KIPRJMOD/../Wang2200.lib)(options "")(descr ""))
-  (lib (name extensioncard-rescue)(type Legacy)(uri ${KIPRJMOD}/extensioncard-rescue.lib)(options "")(descr "")(disabled))
+  (version 7)
+  (lib (name "Wang2200")(type "Legacy")(uri "${KIPRJMODi}/../Wang2200.lib")(options "")(descr ""))
+  (lib (name "extensioncard-rescue")(type "KiCad")(uri "${KIPRJMOD}/extensioncard-rescue.kicad_sym")(options "")(descr ""))
 )
