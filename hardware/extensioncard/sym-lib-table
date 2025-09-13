@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Wang2200")(type "Legacy")(uri "${KIPRJMODi}/../Wang2200.lib")(options "")(descr ""))
-  (lib (name "extensioncard-rescue")(type "KiCad")(uri "${KIPRJMOD}/extensioncard-rescue.kicad_sym")(options "")(descr ""))
-)

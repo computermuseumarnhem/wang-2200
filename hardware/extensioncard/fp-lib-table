@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Wang2200)(type KiCad)(uri ${KIPRJMOD}/../Wang2200.pretty)(options "")(descr ""))
-)
